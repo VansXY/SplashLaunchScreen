@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2819966F20BEB25C00C17ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819966E20BEB25C00C17ECF /* AppDelegate.m */; };
+		2819967220BEB25C00C17ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819967120BEB25C00C17ECF /* ViewController.m */; };
+		2819967520BEB25C00C17ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819967320BEB25C00C17ECF /* Main.storyboard */; };
+		2819967720BEB25D00C17ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2819967620BEB25D00C17ECF /* Assets.xcassets */; };
+		2819967A20BEB25D00C17ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2819967820BEB25D00C17ECF /* LaunchScreen.storyboard */; };
+		2819967D20BEB25D00C17ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819967C20BEB25D00C17ECF /* main.m */; };
+		2819968720BEB25E00C17ECF /* SplashLaunchScreenVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819968620BEB25E00C17ECF /* SplashLaunchScreenVCTests.m */; };
+		2819969220BEB25E00C17ECF /* SplashLaunchScreenVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819969120BEB25E00C17ECF /* SplashLaunchScreenVCUITests.m */; };
+		281996A220BEB2AA00C17ECF /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 281996A120BEB2AA00C17ECF /* test.mp4 */; };
+		281996A520BEB2BB00C17ECF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996A420BEB2BB00C17ECF /* SplashViewController.m */; };
+		281996A920BFE0F500C17ECF /* CropVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996A820BFE0F500C17ECF /* CropVideoTool.m */; };
+		281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996AB20BFFFEE00C17ECF /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2819968320BEB25D00C17ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2819966220BEB25C00C17ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2819966920BEB25C00C17ECF;
+			remoteInfo = SplashLaunchScreenVC;
+		};
+		2819968E20BEB25E00C17ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2819966220BEB25C00C17ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2819966920BEB25C00C17ECF;
+			remoteInfo = SplashLaunchScreenVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2819966A20BEB25C00C17ECF /* SplashLaunchScreenVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashLaunchScreenVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819966D20BEB25C00C17ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2819966E20BEB25C00C17ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2819967020BEB25C00C17ECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2819967120BEB25C00C17ECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2819967420BEB25C00C17ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2819967620BEB25D00C17ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2819967920BEB25D00C17ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2819967B20BEB25D00C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819967C20BEB25D00C17ECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2819968220BEB25D00C17ECF /* SplashLaunchScreenVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashLaunchScreenVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819968620BEB25E00C17ECF /* SplashLaunchScreenVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashLaunchScreenVCTests.m; sourceTree = "<group>"; };
+		2819968820BEB25E00C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2819968D20BEB25E00C17ECF /* SplashLaunchScreenVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashLaunchScreenVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819969120BEB25E00C17ECF /* SplashLaunchScreenVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashLaunchScreenVCUITests.m; sourceTree = "<group>"; };
+		2819969320BEB25E00C17ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281996A120BEB2AA00C17ECF /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		281996A320BEB2BB00C17ECF /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		281996A420BEB2BB00C17ECF /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		281996A720BFE0F500C17ECF /* CropVideoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CropVideoTool.h; sourceTree = "<group>"; };
+		281996A820BFE0F500C17ECF /* CropVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropVideoTool.m; sourceTree = "<group>"; };
+		281996AA20BFFFEE00C17ECF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		281996AB20BFFFEE00C17ECF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2819966720BEB25C00C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819967F20BEB25D00C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819968A20BEB25E00C17ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2819966120BEB25C00C17ECF = {
+			isa = PBXGroup;
+			children = (
+				2819966C20BEB25C00C17ECF /* SplashLaunchScreenVC */,
+				2819968520BEB25D00C17ECF /* SplashLaunchScreenVCTests */,
+				2819969020BEB25E00C17ECF /* SplashLaunchScreenVCUITests */,
+				2819966B20BEB25C00C17ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2819966B20BEB25C00C17ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2819966A20BEB25C00C17ECF /* SplashLaunchScreenVC.app */,
+				2819968220BEB25D00C17ECF /* SplashLaunchScreenVCTests.xctest */,
+				2819968D20BEB25E00C17ECF /* SplashLaunchScreenVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2819966C20BEB25C00C17ECF /* SplashLaunchScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				2819966D20BEB25C00C17ECF /* AppDelegate.h */,
+				2819966E20BEB25C00C17ECF /* AppDelegate.m */,
+				2819967020BEB25C00C17ECF /* ViewController.h */,
+				2819967120BEB25C00C17ECF /* ViewController.m */,
+				281996AA20BFFFEE00C17ECF /* SecondViewController.h */,
+				281996AB20BFFFEE00C17ECF /* SecondViewController.m */,
+				2819969F20BEB28E00C17ECF /* SplashCore */,
+				281996A020BEB28E00C17ECF /* SplashResource */,
+				2819967320BEB25C00C17ECF /* Main.storyboard */,
+				2819967620BEB25D00C17ECF /* Assets.xcassets */,
+				2819967820BEB25D00C17ECF /* LaunchScreen.storyboard */,
+				2819967B20BEB25D00C17ECF /* Info.plist */,
+				2819967C20BEB25D00C17ECF /* main.m */,
+			);
+			path = SplashLaunchScreenVC;
+			sourceTree = "<group>";
+		};
+		2819968520BEB25D00C17ECF /* SplashLaunchScreenVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				2819968620BEB25E00C17ECF /* SplashLaunchScreenVCTests.m */,
+				2819968820BEB25E00C17ECF /* Info.plist */,
+			);
+			path = SplashLaunchScreenVCTests;
+			sourceTree = "<group>";
+		};
+		2819969020BEB25E00C17ECF /* SplashLaunchScreenVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2819969120BEB25E00C17ECF /* SplashLaunchScreenVCUITests.m */,
+				2819969320BEB25E00C17ECF /* Info.plist */,
+			);
+			path = SplashLaunchScreenVCUITests;
+			sourceTree = "<group>";
+		};
+		2819969F20BEB28E00C17ECF /* SplashCore */ = {
+			isa = PBXGroup;
+			children = (
+				281996A620BFE06400C17ECF /* CropVideoTools */,
+				281996A320BEB2BB00C17ECF /* SplashViewController.h */,
+				281996A420BEB2BB00C17ECF /* SplashViewController.m */,
+			);
+			path = SplashCore;
+			sourceTree = "<group>";
+		};
+		281996A020BEB28E00C17ECF /* SplashResource */ = {
+			isa = PBXGroup;
+			children = (
+				281996A120BEB2AA00C17ECF /* test.mp4 */,
+			);
+			path = SplashResource;
+			sourceTree = "<group>";
+		};
+		281996A620BFE06400C17ECF /* CropVideoTools */ = {
+			isa = PBXGroup;
+			children = (
+				281996A720BFE0F500C17ECF /* CropVideoTool.h */,
+				281996A820BFE0F500C17ECF /* CropVideoTool.m */,
+			);
+			path = CropVideoTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2819966920BEB25C00C17ECF /* SplashLaunchScreenVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819969620BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVC" */;
+			buildPhases = (
+				2819966620BEB25C00C17ECF /* Sources */,
+				2819966720BEB25C00C17ECF /* Frameworks */,
+				2819966820BEB25C00C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashLaunchScreenVC;
+			productName = SplashLaunchScreenVC;
+			productReference = 2819966A20BEB25C00C17ECF /* SplashLaunchScreenVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2819968120BEB25D00C17ECF /* SplashLaunchScreenVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819969920BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVCTests" */;
+			buildPhases = (
+				2819967E20BEB25D00C17ECF /* Sources */,
+				2819967F20BEB25D00C17ECF /* Frameworks */,
+				2819968020BEB25D00C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2819968420BEB25D00C17ECF /* PBXTargetDependency */,
+			);
+			name = SplashLaunchScreenVCTests;
+			productName = SplashLaunchScreenVCTests;
+			productReference = 2819968220BEB25D00C17ECF /* SplashLaunchScreenVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2819968C20BEB25E00C17ECF /* SplashLaunchScreenVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819969C20BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVCUITests" */;
+			buildPhases = (
+				2819968920BEB25E00C17ECF /* Sources */,
+				2819968A20BEB25E00C17ECF /* Frameworks */,
+				2819968B20BEB25E00C17ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2819968F20BEB25E00C17ECF /* PBXTargetDependency */,
+			);
+			name = SplashLaunchScreenVCUITests;
+			productName = SplashLaunchScreenVCUITests;
+			productReference = 2819968D20BEB25E00C17ECF /* SplashLaunchScreenVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2819966220BEB25C00C17ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Vickate;
+				TargetAttributes = {
+					2819966920BEB25C00C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					2819968120BEB25D00C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2819966920BEB25C00C17ECF;
+					};
+					2819968C20BEB25E00C17ECF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 2819966920BEB25C00C17ECF;
+					};
+				};
+			};
+			buildConfigurationList = 2819966520BEB25C00C17ECF /* Build configuration list for PBXProject "SplashLaunchScreenVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2819966120BEB25C00C17ECF;
+			productRefGroup = 2819966B20BEB25C00C17ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2819966920BEB25C00C17ECF /* SplashLaunchScreenVC */,
+				2819968120BEB25D00C17ECF /* SplashLaunchScreenVCTests */,
+				2819968C20BEB25E00C17ECF /* SplashLaunchScreenVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2819966820BEB25C00C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819967A20BEB25D00C17ECF /* LaunchScreen.storyboard in Resources */,
+				2819967720BEB25D00C17ECF /* Assets.xcassets in Resources */,
+				2819967520BEB25C00C17ECF /* Main.storyboard in Resources */,
+				281996A220BEB2AA00C17ECF /* test.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819968020BEB25D00C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819968B20BEB25E00C17ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2819966620BEB25C00C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */,
+				281996A920BFE0F500C17ECF /* CropVideoTool.m in Sources */,
+				2819967220BEB25C00C17ECF /* ViewController.m in Sources */,
+				2819967D20BEB25D00C17ECF /* main.m in Sources */,
+				2819966F20BEB25C00C17ECF /* AppDelegate.m in Sources */,
+				281996A520BEB2BB00C17ECF /* SplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819967E20BEB25D00C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819968720BEB25E00C17ECF /* SplashLaunchScreenVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2819968920BEB25E00C17ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819969220BEB25E00C17ECF /* SplashLaunchScreenVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2819968420BEB25D00C17ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2819966920BEB25C00C17ECF /* SplashLaunchScreenVC */;
+			targetProxy = 2819968320BEB25D00C17ECF /* PBXContainerItemProxy */;
+		};
+		2819968F20BEB25E00C17ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2819966920BEB25C00C17ECF /* SplashLaunchScreenVC */;
+			targetProxy = 2819968E20BEB25E00C17ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2819967320BEB25C00C17ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2819967420BEB25C00C17ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2819967820BEB25D00C17ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2819967920BEB25D00C17ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2819969420BEB25E00C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2819969520BEB25E00C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2819969720BEB25E00C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2819969820BEB25E00C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2819969A20BEB25E00C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashLaunchScreenVC.app/SplashLaunchScreenVC";
+			};
+			name = Debug;
+		};
+		2819969B20BEB25E00C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashLaunchScreenVC.app/SplashLaunchScreenVC";
+			};
+			name = Release;
+		};
+		2819969D20BEB25E00C17ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplashLaunchScreenVC;
+			};
+			name = Debug;
+		};
+		2819969E20BEB25E00C17ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SplashLaunchScreenVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.-Vickate.www.SplashLaunchScreenVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplashLaunchScreenVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2819966520BEB25C00C17ECF /* Build configuration list for PBXProject "SplashLaunchScreenVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819969420BEB25E00C17ECF /* Debug */,
+				2819969520BEB25E00C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819969620BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819969720BEB25E00C17ECF /* Debug */,
+				2819969820BEB25E00C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819969920BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819969A20BEB25E00C17ECF /* Debug */,
+				2819969B20BEB25E00C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819969C20BEB25E00C17ECF /* Build configuration list for PBXNativeTarget "SplashLaunchScreenVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819969D20BEB25E00C17ECF /* Debug */,
+				2819969E20BEB25E00C17ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2819966220BEB25C00C17ECF /* Project object */;
+}
