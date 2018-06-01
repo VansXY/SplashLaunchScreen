@@ -10,6 +10,7 @@
 #import "CropVideoTool.h"
 #import "CoverAnimation.h"
 #import "SplashViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface SecondViewController ()
 
@@ -25,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
     self.view.backgroundColor = [UIColor whiteColor];
     [self addButton];
     [self showFirstImage];
