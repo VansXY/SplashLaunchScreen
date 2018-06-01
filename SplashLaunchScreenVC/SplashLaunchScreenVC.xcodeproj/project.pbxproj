@@ -19,6 +19,7 @@
 		281996A520BEB2BB00C17ECF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996A420BEB2BB00C17ECF /* SplashViewController.m */; };
 		281996A920BFE0F500C17ECF /* CropVideoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996A820BFE0F500C17ECF /* CropVideoTool.m */; };
 		281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996AB20BFFFEE00C17ECF /* SecondViewController.m */; };
+		E14D20AE20C0F85C00DDEDCC /* CoverAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D20AD20C0F85C00DDEDCC /* CoverAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		281996A820BFE0F500C17ECF /* CropVideoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropVideoTool.m; sourceTree = "<group>"; };
 		281996AA20BFFFEE00C17ECF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		281996AB20BFFFEE00C17ECF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E14D20AC20C0F85C00DDEDCC /* CoverAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverAnimation.h; sourceTree = "<group>"; };
+		E14D20AD20C0F85C00DDEDCC /* CoverAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				2819967120BEB25C00C17ECF /* ViewController.m */,
 				281996AA20BFFFEE00C17ECF /* SecondViewController.h */,
 				281996AB20BFFFEE00C17ECF /* SecondViewController.m */,
+				E14D20AB20C0F7A000DDEDCC /* TransitionCore */,
 				2819969F20BEB28E00C17ECF /* SplashCore */,
 				281996A020BEB28E00C17ECF /* SplashResource */,
 				2819967320BEB25C00C17ECF /* Main.storyboard */,
@@ -172,6 +176,15 @@
 				281996A820BFE0F500C17ECF /* CropVideoTool.m */,
 			);
 			path = CropVideoTools;
+			sourceTree = "<group>";
+		};
+		E14D20AB20C0F7A000DDEDCC /* TransitionCore */ = {
+			isa = PBXGroup;
+			children = (
+				E14D20AC20C0F85C00DDEDCC /* CoverAnimation.h */,
+				E14D20AD20C0F85C00DDEDCC /* CoverAnimation.m */,
+			);
+			path = TransitionCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */,
+				E14D20AE20C0F85C00DDEDCC /* CoverAnimation.m in Sources */,
 				281996A920BFE0F500C17ECF /* CropVideoTool.m in Sources */,
 				2819967220BEB25C00C17ECF /* ViewController.m in Sources */,
 				2819967D20BEB25D00C17ECF /* main.m in Sources */,

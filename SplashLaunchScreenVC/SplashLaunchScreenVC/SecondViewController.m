@@ -8,6 +8,8 @@
 
 #import "SecondViewController.h"
 #import "CropVideoTool.h"
+#import "CoverAnimation.h"
+#import "SplashViewController.h"
 
 @interface SecondViewController ()
 
@@ -15,7 +17,8 @@
 @property (nonatomic, strong) UIButton *button;
 /** imageView */
 @property (nonatomic, strong) UIImageView *imageView;
-
+/** splashVC */
+@property (nonatomic, strong) SplashViewController *splashVC;
 @end
 
 @implementation SecondViewController
@@ -50,8 +53,16 @@
     [self.view addSubview:_button];
 }
 
+
 - (void)dismissVC {
+    self.transitioningDelegate = self;
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    CoverAnimation *animation = [CoverAnimation new];
+    animation.isPush = NO;
+    return animation;
 }
 
 - (void)didReceiveMemoryWarning {

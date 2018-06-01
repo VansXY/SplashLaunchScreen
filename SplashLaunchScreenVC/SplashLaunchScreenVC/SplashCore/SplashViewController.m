@@ -19,6 +19,7 @@
 @property (nonatomic, assign) float moviePlayerSoundLevel;
 /** tools */
 @property (nonatomic, strong) CropVideoTool *tools;
+@property (nonatomic, strong) CADisplayLink *displayLink;
 @end
 
 @implementation SplashViewController
@@ -42,6 +43,7 @@
 
 - (void)setMoviePlayerWithUrl:(NSURL *)url {
     _tools = [[CropVideoTool alloc] init];
+//    [self.displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     [_tools cropVideoWithVideoUrl:url startTime:_startTime videoDuration:_duration completion:^(NSURL *videoPath) {
         [self videoPathWith:videoPath?: url];
     }];
@@ -136,6 +138,17 @@
 - (void)setVideoFrame:(CGRect)videoFrame {
     _videoFrame = videoFrame;
     _moviePlayer.view.frame = _videoFrame;
+}
+
+- (CADisplayLink *)displayLink {
+    if (!_displayLink) {
+        _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(startTranstionAnimation)];
+    }
+    return _displayLink;
+}
+
+- (void)startTranstionAnimation {
+    
 }
 
 - (void)dealloc {

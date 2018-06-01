@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "SplashViewController.h"
 #import "SecondViewController.h"
+#import "CoverAnimation.h"
 
 @interface ViewController ()
 
@@ -61,7 +62,16 @@
 }
 
 - (void)pushVC {
-    [self presentViewController:[SecondViewController new] animated:YES completion:nil];
+    SecondViewController *secondVC = [SecondViewController new];
+    secondVC.transitioningDelegate = self;
+    [self presentViewController:secondVC animated:YES completion:nil];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    CoverAnimation *animation = [CoverAnimation new];
+    animation.isPush = YES;
+
+    return animation;
 }
 
 - (void)didReceiveMemoryWarning {
