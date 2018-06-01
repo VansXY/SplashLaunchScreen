@@ -203,10 +203,18 @@
     AVPlayerItem *playerItem = (AVPlayerItem *)object;
     
     if ([keyPath isEqualToString:@"loadedTimeRanges"]) {
+        NSTimeInterval loadedTime = [self availableDurationWithplayerItem:playerItem];
+        NSTimeInterval totalTime = CMTimeGetSeconds(playerItem.duration);
+        
+//        if (!self.slider.isSliding) {
+//            self.slider.progressPercent = loadedTime/totalTime;
+//        }
         
     } else if ([keyPath isEqualToString:@"status"]) {
         if (playerItem.status == AVPlayerItemStatusReadyToPlay) {
             [self.player play];
+//            self.slider.enabled = YES;
+//            self.playButton.enabled = YES;
         } else {
             
         }
