@@ -44,5 +44,20 @@
     }];
 }
 
+- (UIImage *)firstImageWithVideoUrl:(NSURL *)url {
+    
+    NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:AVURLAssetPreferPreciseDurationAndTimingKey];
+    AVURLAsset *asset = [AVURLAsset URLAssetWithURL:url options:options];
+    AVAssetImageGenerator *generator = [AVAssetImageGenerator assetImageGeneratorWithAsset:asset];
+    generator.appliesPreferredTrackTransform = YES;
+    CGImageRef imageRef = [generator copyCGImageAtTime:CMTimeMake(0, 10) actualTime:NULL error:nil];
+    if (imageRef) {
+        UIImage *firstImage = [[UIImage alloc] initWithCGImage:imageRef scale:1 orientation:(UIImageOrientationUp)];
+        return firstImage;
+    }
+    return nil;
+}
+
+
 
 @end
