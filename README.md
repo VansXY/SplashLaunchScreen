@@ -26,3 +26,8 @@ NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"];
 
 
 ### TransitionCore 转场动画
+效果如下：
+
+![image](https://github.com/VansXY/MyFirstDemo/blob/master/gif5%E6%96%B0%E6%96%87%E4%BB%B6%20(1).gif)
+
+
