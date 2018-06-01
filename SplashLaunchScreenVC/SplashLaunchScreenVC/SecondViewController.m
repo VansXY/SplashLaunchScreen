@@ -11,6 +11,8 @@
 #import "CoverAnimation.h"
 #import "SplashViewController.h"
 #import <AVFoundation/AVFoundation.h>
+#import "XYPlayerView.h"
+
 
 @interface SecondViewController ()
 
@@ -20,6 +22,9 @@
 @property (nonatomic, strong) UIImageView *imageView;
 /** splashVC */
 @property (nonatomic, strong) SplashViewController *splashVC;
+/** playerLayer */
+@property (nonatomic, strong) XYPlayerView *playerLayer;
+
 @end
 
 @implementation SecondViewController
@@ -30,6 +35,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self addButton];
     [self showFirstImage];
+    [self addPlayer];
 }
 
 - (void)showFirstImage {
@@ -46,7 +52,7 @@
 
 - (void)addButton {
     _button = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    _button.frame = CGRectMake(15, 650, 345, 50);
+    _button.frame = CGRectMake(15, 700, 345, 50);
     _button.backgroundColor = [UIColor purpleColor];
     _button.alpha = 0.5;
     [_button setTitle:@"登录" forState:(UIControlStateNormal)];
@@ -54,6 +60,12 @@
     [self.view addSubview:_button];
 }
 
+- (void)addPlayer {
+    
+    _playerLayer = [[XYPlayerView alloc] initWithFrame:CGRectMake(0, 400, 375, 200)];
+    _playerLayer.isRepeat = YES;
+    [self.view addSubview:_playerLayer];
+}
 
 - (void)dismissVC {
     self.transitioningDelegate = self;

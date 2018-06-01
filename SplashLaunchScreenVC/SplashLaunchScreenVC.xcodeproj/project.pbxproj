@@ -21,6 +21,7 @@
 		281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281996AB20BFFFEE00C17ECF /* SecondViewController.m */; };
 		E14D20AE20C0F85C00DDEDCC /* CoverAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D20AD20C0F85C00DDEDCC /* CoverAnimation.m */; };
 		E14D20B220C1351400DDEDCC /* XYPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D20B120C1351400DDEDCC /* XYPlayerLayer.m */; };
+		E14D20B520C1413200DDEDCC /* XYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D20B420C1413200DDEDCC /* XYPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		E14D20AD20C0F85C00DDEDCC /* CoverAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverAnimation.m; sourceTree = "<group>"; };
 		E14D20B020C1351400DDEDCC /* XYPlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPlayerLayer.h; sourceTree = "<group>"; };
 		E14D20B120C1351400DDEDCC /* XYPlayerLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPlayerLayer.m; sourceTree = "<group>"; };
+		E14D20B320C1413200DDEDCC /* XYPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPlayerView.h; sourceTree = "<group>"; };
+		E14D20B420C1413200DDEDCC /* XYPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +199,8 @@
 			children = (
 				E14D20B020C1351400DDEDCC /* XYPlayerLayer.h */,
 				E14D20B120C1351400DDEDCC /* XYPlayerLayer.m */,
+				E14D20B320C1413200DDEDCC /* XYPlayerView.h */,
+				E14D20B420C1413200DDEDCC /* XYPlayerView.m */,
 			);
 			path = XYPlayer;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 			files = (
 				281996AC20BFFFEE00C17ECF /* SecondViewController.m in Sources */,
 				E14D20AE20C0F85C00DDEDCC /* CoverAnimation.m in Sources */,
+				E14D20B520C1413200DDEDCC /* XYPlayerView.m in Sources */,
 				281996A920BFE0F500C17ECF /* CropVideoTool.m in Sources */,
 				2819967220BEB25C00C17ECF /* ViewController.m in Sources */,
 				2819967D20BEB25D00C17ECF /* main.m in Sources */,
@@ -508,7 +514,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N83ER9BKH3;
 				INFOPLIST_FILE = SplashLaunchScreenVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,7 +532,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N83ER9BKH3;
 				INFOPLIST_FILE = SplashLaunchScreenVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
